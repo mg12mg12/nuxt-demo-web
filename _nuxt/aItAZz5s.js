@@ -1,0 +1,1 @@
+import{_ as r}from"./DlAUqK2U.js";import{c as n,a as o,o as l}from"./BeFB3_UF.js";const t={};function s(a,e){return l(),n("div",null,e[0]||(e[0]=[o("h2",null,"Hello World",-1),o("p",null,"歡迎來到首頁！",-1)]))}const f=r(t,[["render",s]]);export{f as default};
