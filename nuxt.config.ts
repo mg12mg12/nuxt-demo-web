@@ -24,7 +24,8 @@
 export default defineNuxtConfig({
   ssr: false, // 關閉伺服器端渲染，啟用靜態站點生成
   app: {
-    baseURL: '/nuxt-demo-web/', // 替換為你的 GitHub 儲存庫名稱，例如 '/nuxt-demo-web/'
+    baseURL: '/nuxt-demo-web/', // 必須與 GitHub Pages 的儲存庫名稱一致
+    buildAssetsDir: '/nuxt-demo-web/_nuxt/', // 確保靜態資源路徑正確
     head: {
       title: 'Nuxt 網站',
       meta: [
